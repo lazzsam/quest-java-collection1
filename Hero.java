@@ -1,6 +1,10 @@
+import java.util.List;
+
 public class Hero {
 
-    // attributs
+    public static int size;
+	
+	// attributs
     private String name;
     private int age;
 
@@ -27,4 +31,9 @@ public class Hero {
     public void setAge(int age) {
         this.age = age;
     }
+
+	public static List<Hero> sublist(int i, int j) {
+		// TODO Auto-generated method stub
+		return null;
+	}
 }
